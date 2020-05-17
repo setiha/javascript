@@ -1,0 +1,31 @@
+﻿body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+
+div#game {
+    position: relative;
+    margin: 20px 0;
+    width: 100%;
+}
+
+div#box {
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    border-top: 5px solid green;
+    bottom: 0;
+    text-align:center;
+}
+    div#box, div#box span {
+        color: white;
+    }
+div.ball {
+    position: absolute;
+    background-color: chartreuse;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}

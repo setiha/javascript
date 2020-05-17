@@ -1,0 +1,5 @@
+﻿
+
+
+let game = new Game();
+
