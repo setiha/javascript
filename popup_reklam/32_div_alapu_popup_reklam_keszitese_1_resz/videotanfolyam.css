@@ -470,15 +470,16 @@ body {
 	opacity: 0.5;
 	filter:alpha(opacity=50);
 	z-index: 1;
+    top:0;
 }
 
 #reklam{
 	position: absolute;
-	width: 400px;
-	height: 400px;
+	width: 0px;
+	height: 0px;
 	background: #FF0000;
 	z-index: 2;
 	left:50%;
 	top: 50%;
-	margin: -200px 0px 0px -200px;
+    margin: -200px 0px 0px -200px;
 }
