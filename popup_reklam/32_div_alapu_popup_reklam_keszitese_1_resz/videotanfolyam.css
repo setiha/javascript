@@ -1,0 +1,484 @@
+body {
+    margin: 0px;
+    background: #404040 url('images/site/background.jpg') repeat-x;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+#container {
+    position: relative;
+    margin: auto;
+    width: 960px;
+}
+
+#header {
+    background: url('images/site/header.jpg');
+    width: 960px;
+    height: 197px;
+    position: relative;
+}
+
+#logoLink {
+    position: absolute;
+    width: 288px;
+    height: 58px;
+    top: 34px;
+    left: 34px;
+}
+* {
+    outline: none;
+}
+
+#feliratkozas {
+    position: absolute;
+    bottom: 0px;
+    left: 306px;
+    width: 156px;
+    height: 25px;
+}
+
+#headerLinks {
+    position: absolute;
+    top: 26px;
+    left: 495px;
+}
+
+#headerLinks a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-weight: bold;
+}
+
+#headerLinks a:hover {
+    text-decoration: underline;
+}
+
+#gyakoriKerdesek {
+    border-right: 1px solid #6B6B6B;
+    padding-right: 5px;
+    margin-right: 2px;
+}
+
+#headerText {
+    color: #a9a9a9;
+    position: absolute;
+    font-size: 8pt;
+    top: 93px;
+    left: 103px;
+}
+
+#menu {
+    position: relative;
+    width: 960px;
+    height: 37px;
+    background: url('images/site/menu_background.jpg');
+    font-size: 8pt;
+    text-transform: uppercase;
+}
+
+#menu a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 10px 0px 10px;
+    display: block;
+    float: left;
+}
+
+#menu div {
+    float: left;
+    width: 1px;
+    height: 10px;
+    margin-top: 15px;
+    background: #000000;
+}
+
+#menu a:hover {
+    background: url('images/site/menu_hover.jpg');
+}
+
+#content_bg {
+    float: left;
+    width: 960px;
+    background: #FFFFFF;
+}
+
+#left {
+    float: left;
+    width: 188px;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+#kategoriak, #hirek, #kapcsolat, #elonyok, #velemenyek {
+    padding: 6px;
+    background: #EBEBEB;
+    margin: 5px 0px 10px 0px;
+}
+
+.header {
+    background: url('images/site/box_header.jpg') no-repeat;
+    width: 170px;
+    height: 31px;
+    font-weight: bold;
+    padding: 7px 0px 5px 5px;
+    color: #FFFFFF;
+}
+
+#kategoriak_content a {
+    color: #49494A;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 10px 2px 5px;
+    width: 160px;
+    display: block;
+    background: #DDDDDD url('images/site/cat_menu.jpg') no-repeat 97% 7px;
+}
+
+#kategoriak_content hr {
+    border: none;
+    border-top: 1px dotted #51820D;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    width: 175px;
+}
+
+#kategoriak_content a:hover {
+    background: #AAAAAA;
+}
+
+#news_link_top {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #51820D;
+    font-weight: bold;
+}
+
+#news_link_top:hover {
+    text-decoration: underline;
+}
+
+.date {
+    font-size: 8pt;
+    color: #51820D;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.tovabb {
+    font-weight: bold;
+    font-size: 9pt;
+    color: #395A0A;
+}
+
+.tovabb:hover {
+    text-decoration: none;
+}
+
+.kacsacsor {
+    color: #395A0A;
+    font-size: 6pt;
+    font-weight: bold;
+}
+
+.bottom_link {
+    font-size: 8pt;
+    color: #395A0A;
+    width: 180px;
+    height: 17px;
+    padding-top: 25px;
+    text-align: center;
+    background: url('images/site/box_link.jpg');
+}
+
+.bottom_link a {
+    color: #395A0A;
+    font-weight: bolder;
+}
+
+.bottom_link a:hover {
+    text-decoration: none;
+}
+
+#hirek {
+    padding-bottom: 0px;
+}
+
+#hirek_content, #elonyok_content, #velemenyek_content {
+    padding: 0px 5px;
+}
+
+#mail {
+    padding-left: 30px;
+    padding-bottom: 10px;
+    background: url('images/site/icon_mail.jpg') no-repeat left top;
+}
+
+#skype {
+    padding-left: 30px;
+    padding-bottom: 10px;
+    background: url('images/site/icon_skype.jpg') no-repeat left top;
+}
+
+#tel {
+    padding-left: 30px;
+    padding-bottom: 10px;
+    background: url('images/site/icon_tel.jpg') no-repeat left top;
+}
+
+#mail a {
+    color: #000000;
+}
+
+#mail a:hover {
+    text-decoration: none;
+}
+
+#kapcsolat_content {
+    padding-left: 5px;
+}
+
+#kapcsolat, #elonyok, #velemenyek {
+    padding-bottom: 0px;
+}
+
+#middle {
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
+    width: 530px;
+    background: url('images/site/navigation_header.jpg') repeat-x;
+}
+
+#middle_content {
+    float: left;
+    width: 340px;
+}
+
+#kezdolap {
+    color: #40630B;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0px 10px 3px;
+    font-size: 8pt;
+}
+
+#middle_content h3 {
+    color: #507B0F;
+    font-size: 12pt;
+    margin-bottom: 12px;
+}
+
+.dvd {
+	margin-top:40px;
+    width: 173px;
+    float: right;
+    background: #E5E5E5;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#dvd_header {
+    background: url('images/site/dvd_header.jpg');
+    width: 168px;
+    height: 26px;
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+#dvd_header span {
+    float: right;
+    color: #4F7A0E;
+    padding-right: 5px;
+}
+
+.dvd_content {
+    padding: 8px;
+}
+
+.dvd_content img {
+    padding: 10px;
+    border: none;
+    margin-bottom: 5px;
+    background: #FFFFFF;
+}
+
+.akcio_link {
+    font-weight: bold;
+    color: #575757;
+    text-decoration: none;
+}
+
+.akcio_link:hover {
+    text-decoration: underline;
+}
+
+.dvd_content span {
+    text-align: center;
+    margin: 5px 0px;
+    font-weight: bold;
+    color: #51820c;
+    font-size: 10pt;
+    display: block;
+}
+
+.go_vid {
+    position: relative;
+    margin: auto;
+    background: url('images/site/button_go_video.jpg');
+    width: 125px;
+    height: 26px;
+    display: block;
+}
+
+#belenezek {
+    display: block;
+    width: 206px;
+    height: 34px;
+    background: url('images/site/belenezek.jpg');
+    float: left;
+    margin-left: 60px;
+}
+
+#ajanlott {
+    float: left;
+    background: #dedede;
+    color: #51820c;
+    width: 520px;
+    padding: 5px;
+    font-size: 16pt;
+    margin-bottom: 10px;
+}
+
+.dvd2 {
+    width: 173px;
+    float: left;
+    margin-right: 5px;
+    background: #e5e5e5;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.dvd2 .dvd_content {
+    height: 230px;
+    margin-bottom: 10px;
+}
+
+.dvd2 span {
+    text-align: left;
+    margin: 0px;
+}
+
+#right {
+    float: left;
+	width:188px;
+	margin-left:10px;
+	margin-right:12px;
+}
+
+#chat{
+	width:188px;
+	height:44px;
+	background:url('images/site/chat.jpg');
+	margin:5px 0px 10px 0px;
+	display:block;
+}
+
+#elonyok ul{
+	margin:0px;
+	padding:0px;
+}
+
+#elonyok li{
+	list-style-type:none;
+	background:url('images/site/list_image.jpg') no-repeat;
+	padding-left:25px;
+	padding-bottom:5px;
+}
+
+#velemenyek_content h3{
+	margin:5px 0px;
+	font-size:10pt;
+}
+
+#velemenyek_content hr{
+	border:none;
+	border-top:1px dotted #719939;
+	margin:10px 0px;
+}
+
+#footer{
+	width:960px;
+	height:127px;
+	background:url('images/site/footer.jpg');
+	float:left;
+	position:relative;
+	color:#b7b7b7;
+}
+
+#footer a{
+	color:#b7b7b7;
+	text-decoration:none;
+}
+
+#footer a:hover{
+	text-decoration:underline;
+}
+
+#copyright{
+	position:absolute;
+	top:30px;
+	left:175px;
+}
+
+#adatvedelem{
+	position:absolute;
+	top:30px;
+	right:12px;
+}
+
+#adatvedelem a{
+	text-decoration:underline;
+}
+
+#adatvedelem a:hover{
+	text-decoration:none;
+}
+
+#footer_links{
+	position:absolute;
+	top:65px;
+	right:12px;
+	text-align:right;
+}
+
+#google{
+	position:absolute;
+	bottom:5px;
+	right:12px;
+}
+
+#reklamBg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+	z-index: 1;
+}
+
+#reklam{
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	background: #FF0000;
+	z-index: 2;
+	left:50%;
+	top: 50%;
+	margin: -200px 0px 0px -200px;
+}
