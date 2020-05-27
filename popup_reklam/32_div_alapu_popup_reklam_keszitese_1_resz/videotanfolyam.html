@@ -32,18 +32,20 @@
         reklam.appendChild(bezarGomb);
     }
     function effect() {
-        if(szelesseg < 401) {
-            szelesseg+=20;
-            document.getElementById("reklam").style.width = szelesseg.toString() +'px';
-            document.getElementById("reklam").style.height = szelesseg.toString() +'px';
+        if(opacity1 < 1 || opacity2 < 100) {
+            opacity1+=0.1;
+            opacity2+=10;
+            document.getElementById("reklam").style.opacity = opacity1.toString();
+            document.getElementById("reklam").style.filter = "alpha(opacity = opacity2)";
         }
         else{
 clearInterval(ismetles);
         }
     }
     createReklam()
-    var szelesseg = 0;
-    var ismetles = setInterval('effect()',30);
+    var opacity1 = 0;
+    var opacity2 = 0;
+    var ismetles = setInterval('effect()',100);
 
 </script>
 <div id="container">
